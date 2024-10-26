@@ -19,8 +19,8 @@ export const formatNotes = (notes) => {
           ${note.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
         </div>
       </div>
-    `
-  }).join('\n')
+    `;
+  }).join('\n');
 }
 
 export const createServer = notes => {
